@@ -14,3 +14,129 @@ img {
 }
 
 /* Add your CSS below */
+body {
+  background-color: #fff5e6;
+  color: #4b2e83;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #9c27b0;
+  font-size: 2.5rem;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  color: #7b1fa2;
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #d81b60;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #f8bbd0;
+}
+
+section {
+  background-color: #fff0f5;
+  text-align: left;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ingredient-item {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.instruction-item {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+figure {
+  margin: 20px auto;
+}
+
+#figcaption {
+  font-style: italic;
+  margin-top: 8px;
+}
+
+figure img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+body {
+  max-width: 900px;
+  margin: auto;
+}
+
+header,
+main,
+footer,
+section,
+p,
+ul,
+ol,
+li,
+figure {
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin-right: 15px;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+section {
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.ingredient-item,
+.instruction-item {
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+figure img {
+  border: 3px solid #4b2e83;
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+h2 {
+  border-bottom: 2px solid #7b1fa2;
+  padding-bottom: 6px;
+}
+
+p {
+  border-left: 4px solid #d81b60;
+  padding-left: 12px;
+}
+
+footer {
+  border-top: 2px solid #7b1fa2;
+  padding-top: 10px;
+}
